@@ -23,3 +23,17 @@ function rando(num: number) {
   }
   return num:
 }
+
+const add = (x: number, y: number) : number => {
+  return x + y;
+};
+
+const colors =["red", "orange", "yellow"];
+colors.map(color => {
+  return color.toUpperCase();
+})
+
+function printTwice(msg: string): void { //annotating to return nothing
+  console.log(msg);
+  console.log(msg);
+}
